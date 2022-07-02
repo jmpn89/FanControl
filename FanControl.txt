@@ -1,0 +1,4 @@
+#FAN CONTROL
+sudo rsync -zavh /mnt/sdb1/NAS/JM/Backups/Backup_RPi4/FanControl /home/pi/
+sudo cp /home/pi/FanControl/fanctrl.service /lib/systemd/system
+sudo systemctl enable fanctrl.service
