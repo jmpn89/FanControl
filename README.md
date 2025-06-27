@@ -6,4 +6,5 @@ sudo apt install git
 git clone https://github.com/jmpn89/FanControl
 cd FanControl
 chmod +x install.sh
+./install.sh
 ```
