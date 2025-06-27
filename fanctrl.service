@@ -5,7 +5,7 @@ After=mediacenter.service
 [Service]
 Type=simple
 User=root
-ExecStart= /usr/bin/python3 /home/dietpi/FanControl/fan_ctrl.py
+ExecStart= /usr/bin/python3 ~/FanControl/fan_ctrl.py
 Restart=always
 
 [Install]
